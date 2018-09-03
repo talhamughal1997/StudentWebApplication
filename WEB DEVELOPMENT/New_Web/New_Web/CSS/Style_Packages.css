@@ -1,0 +1,392 @@
+﻿.Main-Page
+{
+	margin:0;
+	padding:10px 0 0 0;
+	width:1263px;
+	height:815px;
+}
+.Main-Page p
+{
+	margin:80px 0 0 0;
+	color:#3BA2BE;
+	font-size:36px;
+	line-height:1.78em;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+}
+.Main-Page p a
+{
+	color:#3BA2BE;
+	line-height:0.93em;
+	font-weight:900;
+	font-size:60px;
+	font-family:'Roboto', sans-serif;
+}
+.Main-Page section
+{
+	margin:55px 0 0 47px;
+	padding:0;
+	width:374px;
+	height:75px;
+	color:#C9C9C9;
+	font-size:14px;
+	line-height:1.43em;
+	font-family:'Roboto', sans-serif;
+	text-align:start;
+	float:left;
+}
+.Main-Page section:hover
+{
+	color:#03C;
+}
+.Main-Page img
+{
+	margin:70px auto;
+}
+.Main-Page #para
+{
+	margin:35px auto;
+	padding:0;
+	width:525px;
+	height:75px;
+	color:#C9C9C9;
+	font-size:14px;
+	line-height:1.43em;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	display:none;
+}
+.image
+{
+	margin:50px 545px 0 0;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*    PACKAGE STYLE    */
+
+
+            /*    LIMITED PACKAGE STYLE    */
+
+
+.Page-Area
+{
+    margin:0;
+    padding:0;
+    width:1263px;
+    min-height:500px;
+    background-color:#333;
+}
+.Page-Area .dropdownlist1
+{
+    margin:50px 0 0 500px;
+    padding:5px 0 5px 0;
+    width:200px;
+    height:35px;
+    background-color:#092543;
+    color:white;
+    font-size:18px;
+    font-style:italic;
+    font-weight:900;
+    text-align:center;
+    border:1px solid #092543;
+    border-radius:20px;
+}
+
+
+.Page-Area .panel1
+{
+    margin:0;
+    padding:0 80px 0 20px;
+    width:1163px;
+    min-height:800px;
+    
+}
+.panel1 section
+{
+    margin:30px 0 0 470px;
+    font-size:50px;
+    font-style:italic;
+    font-weight:bolder;
+    color:#03C;
+}
+.package-datalist-1
+{
+    margin:40px 0 40px 180px;
+    padding:0;
+    width:370px;
+	min-height:620px;
+	float:left;
+	background-color:#092543;
+    transition-duration:1s;
+    
+}
+.package-datalist-1:hover
+{
+    border-radius:50px 0 50px 0;
+    transition-duration:1s;
+}
+
+
+.package-datalist-1 .h1
+
+{
+	margin:50px 0 0 105px;
+	padding:40px 0 0 0px;
+	/*width:122px;
+	height:162px;*/
+	font-family:'Roboto', sans-serif;
+	font-size:40px;
+	font-weight:900;
+	line-height:44px;
+	color:#fff;
+	text-align:center;
+	background-color:#3ba2be;
+	border-radius:100px;
+	transition-duration:1s;
+}
+.package-datalist-1 .h1:hover
+{
+	background-color:#000;
+	transition-duration:1s;
+}
+.package-datalist-1 .h2
+{
+	margin:15px 0 0 130px;
+	font-size:36px;
+	font-family:'Roboto', sans-serif;
+	color:#fff;
+	line-height:1.44em;
+	letter-spacing:0.10px;
+	float:left;
+}
+.package-datalist-1 p
+{
+	margin:55px auto;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	color:#fff;
+	line-height:1.44em;
+	letter-spacing:0.10px;
+	font-style:italic;
+	text-align:center;
+}
+#price-line-1
+{
+	margin:35px auto;
+	width:72px;
+	height:10px;
+	background-color:#3ba2be;
+}
+.package-datalist-1 .h3
+{
+	margin:55px 0 0 110px;
+	font-size:36px;
+	font-family:'Roboto', sans-serif;
+	color:#3ba2be;
+	font-weight:900;
+	line-height:1.44em;
+	letter-spacing:0.10px;
+	text-align:center;
+}
+.package-datalist-1 h4
+{
+	margin:0 0 0 105px;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	color:#3ba2be;
+	line-height:1.44em;
+	letter-spacing:0.10px;
+	font-style:italic;
+	font-weight:normal;
+}
+.package-datalist-1 .h5
+{
+	margin:20px 0 0 100px;
+	padding:15px 0 0 0;
+	width:160px;
+	height:35px;
+	border-radius:20px;
+	background-color:#3ba2be;
+	font-family:'Roboto', sans-serif;
+	font-size:22px;
+	text-align:center;
+    text-decoration:none;
+	color:#fff;
+	transition-duration:1s;
+    float:left;
+}
+.package-datalist-1 .h5:hover
+{
+	background-color:#666;
+	color:#F00;
+	transition-duration:1s;
+}
+
+
+
+
+
+                    /*   UNLIMITED  PACKAGE STYLE    */
+
+
+.Page-Area
+{
+    width:1263px;
+    min-height:500px;
+    
+}
+.Page-Area .panel2
+{
+    margin:0;
+    padding:0 80px 0 20px;
+    width:1163px;
+    min-height:800px;
+    scrollbar-track-color:black;
+}
+.panel2 section
+{
+    margin:30px 0 0 450px;
+    font-size:50px;
+    font-style:italic;
+    font-weight:bolder;
+    color:#03C;
+}
+
+.package-datalist-2
+{
+    margin:40px 0 40px 180px;
+    padding:0;
+    width:370px;
+	min-height:620px;
+	float:left;
+	background-color:#092543;
+    transition-duration:1s;
+    
+}
+.package-datalist-2:hover
+{
+    border-radius:50px 0 50px 0;
+    transition-duration:1s;
+}
+
+
+.package-datalist-2 .h1
+
+{
+	margin:50px 0 0 105px;
+	padding:40px 0 0 0;
+	/*width:122px;
+	height:162px;*/
+	font-family:'Roboto', sans-serif;
+	font-size:40px;
+	font-weight:900;
+	line-height:44px;
+	color:#fff;
+	text-align:center;
+	background-color:#3ba2be;
+	border-radius:100px;
+	transition-duration:1s;
+}
+.package-datalist-2 .h1:hover
+{
+	background-color:#000;
+	transition-duration:1s;
+}
+.package-datalist-2 .h2
+{
+	margin:15px 0 0 140px;
+	font-size:36px;
+	font-family:'Roboto', sans-serif;
+	color:#fff;
+	line-height:1.44em;
+	letter-spacing:0.10px;
+	float:left;
+}
+.package-datalist-2 p
+{
+	margin:35px auto;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	color:#fff;
+	line-height:1.44em;
+	letter-spacing:0.10px;
+	font-style:italic;
+	text-align:center;
+}
+#price-line-1
+{
+	margin:35px auto;
+	width:72px;
+	height:10px;
+	background-color:#3ba2be;
+}
+.package-datalist-2 .h3
+{
+	margin:55px 0 0 110px;
+	font-size:36px;
+	font-family:'Roboto', sans-serif;
+	color:#3ba2be;
+	font-weight:900;
+	line-height:1.44em;
+	letter-spacing:0.10px;
+	text-align:center;
+}
+.package-datalist-2 h4
+{
+	margin:0 0 0 105px;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	color:#3ba2be;
+	line-height:1.44em;
+	letter-spacing:0.10px;
+	font-style:italic;
+	font-weight:normal;
+}
+.package-datalist-2 .h5
+{
+	margin:20px 0 0 100px;
+	padding:15px 0 0 0;
+	width:160px;
+	height:35px;
+	border-radius:20px;
+	background-color:#3ba2be;
+	font-family:'Roboto', sans-serif;
+	font-size:22px;
+	text-align:center;
+    text-decoration:none;
+    list-style:none;
+	color:#fff;
+	transition-duration:1s;
+    float:left;
+}
+.package-datalist-2 .h5:hover
+{
+	background-color:#666;
+	color:#F00;
+	transition-duration:1s;
+}
+
+
+
+
+
+
+
+
+
+
+

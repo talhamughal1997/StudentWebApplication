@@ -1,0 +1,238 @@
+﻿
+
+
+
+
+.Gallery-Area
+{
+	margin:0;
+	padding:0;
+	width:1263px;
+	height:915px;
+}
+.Gallery-Area h1
+{
+	margin:100px 0 0 0;
+	font-family:'Roboto', sans-serif;
+	font-size:40px;
+	text-align:center;
+	color:#03F;
+	font-weight:900;
+}
+
+	/* GALLERY IMAGE : 1 */
+
+.gallery-im-1
+{
+	margin:100px 0 0 0;
+	width:270px;
+	height:270px;
+	float:left;
+	border-radius:200px;
+	position:absolute;
+	transition-duration:0.5s;
+	background:url(../IMAGES/Gallery_Images/galery-1.png);
+
+}
+.gallery-im-1:hover
+{
+	background:#060;
+	transition-duration:0.5s;
+}
+.section
+{
+	margin:120px 0 0 0;
+	color:#000;
+	text-align:justify;
+	width:75%;
+	font-family:'Roboto', sans-serif;
+	font-size:14px;
+	font-style:italic;
+	font-weight:600;
+	position:absolute;
+	transition-duration:2s;
+	display:none;
+}
+.section:hover
+{
+	transition-duration:2s;
+	color:#fff;
+}
+.icons-1
+{
+	margin:50px 0 0 0;
+	width:40px;
+	height:40px;
+	border-radius:200px;
+	background-color:#C03;
+	position:absolute;
+	transition-duration:2s;
+	display:none;
+	
+}
+.icons-1:hover
+{
+	background-color:#000;
+	transition-duration:2s;
+}
+.icons-2
+{
+	margin:50px 0 0 0;
+	width:40px;
+	height:40px;
+	border-radius:200px;
+	background-color:#C03;
+	position:absolute;
+	transition-duration:2s;
+	display:none;
+
+}
+.icons-2:hover
+{
+	background-color:#000;
+	transition-duration:2s;
+}
+
+
+/* GALLERY IMAGE : 2 */
+
+
+.gallery-im-2
+{
+	margin:100px 0 0 0;
+	width:270px;
+	height:270px;
+	float:left;
+	border-radius:200px;
+	background:url(../IMAGES/Gallery_Images/galery-2.png);
+	transition-duration:2s;
+	position:absolute;
+}
+.gallery-im-2:hover
+{
+	background:#060;
+	transition-duration:2s;
+}
+
+
+	/* GALLERY IMAGE : 3 */
+
+
+.gallery-im-3
+{
+	margin:100px 0 0 0;
+	width:270px;
+	height:270px;
+	float:left;
+	border-radius:200px;
+	background:url(../IMAGES/Gallery_Images/galery-3.png);
+	transition-duration:2s;
+	position:absolute;
+}
+.gallery-im-3:hover
+{
+	background:#060;
+	transition-duration:2s;
+}
+
+
+	/* GALLERY IMAGE : 4 */
+
+
+.gallery-im-4
+{
+	margin:100px 0 0 0;
+	width:270px;
+	height:270px;
+	float:left;
+	border-radius:200px;
+	background:url(../IMAGES/Gallery_Images/galery-4.png);
+	transition-duration:2s;
+	position:absolute;
+}
+.gallery-im-4:hover
+{
+	background:#060;
+	transition-duration:2s;
+}
+
+
+
+	/* GALLERY IMAGE : 5 */
+
+
+.gallery-im-5
+{
+	margin:420px 0 0 0;
+	width:270px;
+	height:270px;
+	float:left;
+	border-radius:200px;
+	background:url(../IMAGES/Gallery_Images/galery-5.png);
+	transition-duration:2s;
+	position:absolute;
+}
+.gallery-im-5:hover
+{
+	background:#060;
+	transition-duration:2s;
+}
+
+
+	/* GALLERY IMAGE : 6 */
+
+
+.gallery-im-6
+{
+	margin:420px 0 0 0;
+	width:270px;
+	height:270px;
+	float:left;
+	border-radius:200px;
+	background:url(../IMAGES/Gallery_Images/galery-6.png);
+	transition-duration:2s;
+	position:absolute;
+}
+.gallery-im-6:hover
+{
+	background:#060;
+	transition-duration:2s;
+}
+
+
+	/* GALLERY IMAGE : 7 */
+
+
+.gallery-im-7
+{
+	margin:420px 0 0 0;
+	width:270px;
+	height:270px;
+	float:left;
+	border-radius:200px;
+	background:url(../IMAGES/Gallery_Images/galery-7.png);
+	transition-duration:2s;
+	position:absolute;
+}
+.gallery-im-7:hover
+{
+	background:#060;
+	transition-duration:2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

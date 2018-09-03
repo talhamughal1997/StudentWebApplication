@@ -1,0 +1,746 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Page_Area
+{
+    margin:0;
+    padding:0;
+    width:1263px;
+    min-height:800px;
+    
+}
+
+
+
+
+
+
+
+            /*          Panel - 1  : Sign IN        */
+
+
+
+
+.Panel-1
+{
+    margin:0;
+    padding:40px 0 0 0;
+    width:1263px;
+    min-height:800px;
+    background-color:#808080;
+}
+.Panel-1 h1
+{
+    margin:0;
+    padding:0;
+    font-size:40px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    text-align:center;
+    color:#333;
+    font-weight:900;
+}
+.Panel-1 h2
+{
+    margin:60px 0 0 400px;
+    padding:0;
+    font-size:26px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:#333;
+    font-weight:900;
+    float:left;
+}
+.Panel-1 h3
+{
+    margin:30px 0 50px 410px;
+    padding:0;
+    font-size:26px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:#333;
+    font-weight:900;
+    float:left;
+}
+
+.Panel-1 .txt-box-1
+{
+    margin:60px 0 0 20px;
+    padding:0 10px 0 10px;
+    width:180px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    text-align:center;
+    color:#000;
+    font-weight:900;
+    border:2px solid #000;
+    border-radius:20px;
+}
+
+
+.Panel-1 .txt-box-2
+{
+    margin:30px 0 50px 20px;
+    padding:0 10px 0 10px;
+    width:180px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    text-align:center;
+    color:#000;
+    font-weight:900;
+    border:2px solid #000;
+    border-radius:20px;
+}
+
+
+.Panel-1 .Lbl-Message
+{
+    margin:50px 0 0 470px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:red;
+    font-weight:400;
+}
+
+
+
+.Panel-1 .Btn-Sign-In
+{
+    margin:50px 0 0 400px;
+    width:130px;
+    height:35px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:#ff6a00;
+    font-weight:400;
+    background-color:#333;
+    border-radius:20px;
+    float:left;
+}
+
+.Panel-1 .Btn-Sign-Up
+{
+    margin:50px 0 0 100px;
+    width:130px;
+    height:35px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:#ff6a00;
+    font-weight:400;
+    background-color:#333;
+    border-radius:20px;
+
+}
+.Panel-1 .forget-Link
+{
+    margin:0 0 0 520px;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:#100f87;
+    font-weight:600;
+    text-decoration:none;
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /*          Panel - 2  : Sign UP        */
+
+
+
+
+
+.Panel-2
+{
+    margin:0;
+    padding:40px 0 0 0;
+    width:1263px;
+    min-height:800px;
+    background-color:#333;
+}
+.Panel-2 h1
+{
+    margin:0 0 30px 0;
+    padding:0;
+    font-size:40px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    text-align:center;
+    color:#000;
+    font-weight:900;
+}
+.Panel-2 h2
+{
+    margin:50px 0 0 350px;
+    padding:0;
+    font-size:26px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:#fff;
+    font-weight:900;
+    float:left;
+}
+.Panel-2 .txt-boxes
+{
+    margin:55px 500px 0 0;
+    padding:0 10px 0 10px;
+    width:180px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    text-align:center;
+    color:#000;
+    font-weight:900;
+    border:2px solid #000;
+    border-radius:20px;
+    background-color:#808080;
+    float:right;
+}
+
+.Panel-2 .Sign-Up
+{
+    margin:50px 0 30px 600px;
+    width:130px;
+    height:35px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:#ff6a00;
+    font-weight:400;
+    background-color:#333;
+    border-radius:20px;
+    transition-duration:1s;
+}
+.Panel-2 .Sign-Up:hover
+{
+    
+    color:#fff;
+    background-color:#000;
+    border-radius:30px;
+    transition-duration:1s;
+}
+.Panel-2 .dlst-Ques
+{
+    margin:0 0 0 420px;
+    width:300px;
+    height:30px;
+    background-color:#333;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:#FFF;
+    font-weight:400;
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Panel-2 .rq-validate
+{
+    margin:0 0 0 580px;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:red;
+    font-weight:400;
+    
+}
+
+.Panel-2 .regular-validate
+{
+    margin:0 0 0 580px;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:red;
+    font-weight:400;
+    position:relative;
+}
+.Panel-2 .compare-validate
+{
+    margin:0 0 0 580px;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:red;
+    font-weight:400;
+    position:relative;
+}
+
+.Panel-2 .range-validate
+{
+    margin:0 0 0 580px;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    color:red;
+    font-weight:400;
+    position:relative;
+}
+
+
+
+
+
+
+            /*      PANEL : 3       */
+
+.Panel-3
+{
+    margin:0;
+    padding:160px 0 0 0;
+    width:1263px;
+    min-height:500px;
+    background-color:#100f87;
+}
+.Panel-3 h1
+{
+    margin:0 0 0 430px;
+    padding:0;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:36px;
+    font-weight:900;
+}
+.Panel-3 .txt-box
+{
+    margin:30px 0 50px 400px;
+    padding:0 20px 0 20px;
+    width:310px;
+    height:40px;
+    border:3px solid #000;
+    border-radius:30px;
+    background-color:#34a0b4;
+    color:white;
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:22px;
+    font-weight:300;
+}
+.Panel-3 .lbl-Message
+{
+    margin:0 0 0 480px;
+    color:red;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:22px;
+    font-weight:600;
+}
+.Panel-3 .btn-Submit
+{
+    margin:30px 0 0 500px;
+    padding:0;
+    width:150px;
+    height:30px;
+    border:3px solid #000;
+    border-radius:20px;
+    background-color:brown;
+    color:white;
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:20px;
+    font-weight:300;
+}
+.Panel-3 .btn-Submit:hover
+{
+    
+    border-radius:20px;
+    background-color:black;
+    color:red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+            /*      PANEL : 4       */
+
+.Panel-4
+{
+    margin:0;
+    padding:160px 0 0 0;
+    width:1263px;
+    min-height:500px;
+    background-color:#100f87;
+}
+.Panel-4 h2
+{
+    margin:50px 0 0 500px;
+    padding:0;
+    color:#FFF;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:30px;
+    font-weight:900;
+}
+
+.Panel-4 .txt-box
+{
+    margin:30px 0 50px 430px;
+    padding:0 20px 0 20px;
+    width:310px;
+    height:40px;
+    border:3px solid #000;
+    border-radius:30px;
+    background-color:#34a0b4;
+    color:white;
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:22px;
+    font-weight:300;
+}
+.Panel-4 .lbl-Question
+{
+    margin:0 0 0 400px;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:40px;
+    font-weight:600;
+}
+
+.Panel-4 .lbl-Message
+{
+    margin:0 0 0 480px;
+    color:red;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:22px;
+    font-weight:600;
+}
+.Panel-4 .btn-Submit
+{
+    margin:30px 0 0 540px;
+    padding:0;
+    width:150px;
+    height:30px;
+    border:3px solid #000;
+    border-radius:20px;
+    background-color:brown;
+    color:white;
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:20px;
+    font-weight:300;
+}
+.Panel-4 .btn-Submit:hover
+{
+    
+    border-radius:20px;
+    background-color:black;
+    color:red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*      PANEL : 5       */
+
+.Panel-5
+{
+    margin:0;
+    padding:160px 0 0 0;
+    width:1263px;
+    min-height:500px;
+    background-color:#100f87;
+}
+.Panel-5 .lbl-Email
+{
+    margin:50px 0 0 500px;
+    padding:0;
+    color:#FFF;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:30px;
+    font-weight:900;
+}
+
+.Panel-5 h1
+{
+    margin:50px 0 0 430px;
+    padding:0;
+    color:#FFF;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:24px;
+    font-weight:900;
+}
+
+.Panel-5 h2
+{
+    margin:50px 0 0 480px;
+    padding:0;
+    color:#FFF;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:24px;
+    font-weight:900;
+}
+
+.Panel-5 .txt-box
+{
+    margin:0 0 60px 430px;
+    padding:0 20px 0 20px;
+    width:310px;
+    height:30px;
+    border:3px solid #000;
+    border-radius:30px;
+    background-color:#34a0b4;
+    color:white;
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:22px;
+    font-weight:300;
+}
+
+.Panel-5 .lbl-Message
+{
+    margin:0 0 0 480px;
+    color:red;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:22px;
+    font-weight:600;
+}
+.Panel-5 .btn-Submit
+{
+    margin:30px 0 70px 540px;
+    padding:0;
+    width:150px;
+    height:30px;
+    border:3px solid #000;
+    border-radius:20px;
+    background-color:brown;
+    color:white;
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-size:20px;
+    font-weight:300;
+}
+.Panel-5 .btn-Submit:hover
+{
+    
+    border-radius:20px;
+    background-color:black;
+    color:red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     /*          ADMIN REGISTERED        */
+
+
+
+
+.Admin-Page-Area
+{
+    margin:0;
+    padding:50px 20px 50px 20px;
+    width:1223px;
+    min-height:1000px;
+    background-color:brown;
+}
+.Admin-Page-Area h3
+{
+    margin:15px 20px 0 250px;
+    padding:0;
+    color:black;
+    font-family:'Roboto', sans-serif;
+    font-size:22px;
+    font-style:normal;
+    float:left;
+    font-weight:400;
+   
+}
+.Admin-Page-Area h4
+{
+    margin:15px 20px 0 350px;
+    padding:0;
+    color:black;
+    font-family:'Roboto', sans-serif;
+    font-size:22px;
+    font-style:normal;
+    float:left;
+    font-weight:300;
+   
+}
+
+.Admin-Page-Area .Label1
+{
+    margin:15px 0 0 0;
+    padding:0;
+    color:black;
+    font-family:'Roboto', sans-serif;
+    font-size:20px;
+    font-style:oblique;
+    float:left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

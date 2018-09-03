@@ -1,0 +1,287 @@
+﻿.Main-Page
+{
+	margin:0;
+	padding:10px 0 0 0;
+	width:1263px;
+	height:815px;
+}
+.Main-Page p
+{
+	margin:80px 0 0 0;
+	color:#3BA2BE;
+	font-size:36px;
+	line-height:1.78em;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+}
+.Main-Page p a
+{
+	color:#3BA2BE;
+	line-height:0.93em;
+	font-weight:900;
+	font-size:60px;
+	font-family:'Roboto', sans-serif;
+}
+.Main-Page section
+{
+	margin:55px 0 0 47px;
+	padding:0;
+	width:374px;
+	height:75px;
+	color:#C9C9C9;
+	font-size:14px;
+	line-height:1.43em;
+	font-family:'Roboto', sans-serif;
+	text-align:start;
+	float:left;
+}
+.Main-Page section:hover
+{
+	color:#03C;
+}
+.Main-Page img
+{
+	margin:70px auto;
+}
+.Main-Page #para
+{
+	margin:35px auto;
+	padding:0;
+	width:525px;
+	height:75px;
+	color:#C9C9C9;
+	font-size:14px;
+	line-height:1.43em;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	display:none;
+}
+.image
+{
+	margin:50px 545px 0 0;
+	float:left;
+}
+.Projects-Box
+{
+	margin:0;
+	padding:95px 45px 95px 45px;
+	width:1173px;
+	height:770px;
+	background:url(../IMAGES/Home_Images/world-2.jpg);
+	display:none;		
+}
+.Projects-Box h1
+{
+	margin:0;
+	font-size:36px;
+	font-family:'Roboto', sans-serif;
+	line-height:1.43em;
+	font-weight:900;
+	text-align:center;
+	letter-spacing:0.9px;
+	color:#FFF;
+	display:none;
+}
+.Projects-Box img
+{
+	margin:50px 20px 0 0px;
+}
+.Projects-Box #img1,#img2,#img3,#img4
+{
+	display:none;
+}
+.Projects-Box h2
+{
+	margin:30px 15px 0 40px;
+	font-family:'Roboto', sans-serif;
+	color:#FFF;
+	font-size:24px;
+	font-weight:300;
+	float:left;
+	display:none;
+	
+}
+.Projects-Box p
+{
+	margin:25px 20px 0 10px;
+	width:262px;
+	height:75px;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+	font-size:14px;
+	color:#FFF;
+	line-height:1.43em;
+	float:left;
+	display:none;
+}
+.Projects-Box h3
+{
+	margin:30px 0 0 0;
+	font-size:36px;
+	line-height:1.43em;
+	font-weight:900;
+	font-family:'Roboto', sans-serif;;
+	text-align:center;
+	color:#FFF;
+}
+.Projects-Box h4
+{
+	margin:20px 0 0 0;
+	font-family:'Roboto', sans-serif;
+	color:#FFF;
+	font-size:18px;
+	font-weight:300;
+	text-align:center;
+	display:none;
+}
+.Projects-Box input
+{
+	margin:20px 0 0 300px;
+	border-radius:20px;
+	width:430px;
+	height:40px;
+	background-color:transparent;
+	border:2px solid #0000CC;
+	font-family:'Roboto', sans-serif;
+	font-size:18px;
+	color:#FFF;
+	text-align:center;
+	font-style:italic;
+	font-weight:300;
+	float:left;
+}
+.Projects-Box #submit
+{
+	margin:20px 230px 0 0;
+	border-radius:20px;
+	width:200px;
+	height:40px;
+	background:linear-gradient(#999,#FFF,#666);
+	border:1px solid #;
+	font-family:'Roboto', sans-serif;
+	font-size:22px;
+	color:#933;
+	font-weight:600;
+	text-align:center;
+	letter-spacing:0.25em;
+	float:right;
+	text-transform:uppercase;
+	font-style:normal;
+	transition-duration:1s;            	
+}
+.Projects-Box #submit:hover
+{
+	background:#000;
+	color:#FFF;
+	transition-duration:1s;
+}
+.comment-box
+{
+	margin:0;
+	padding:80px 0 0 0;
+	width:1263px;
+	height:815px;
+	background-color:#01123a;
+}
+.comment-box h1
+{
+	margin:0px 0 50px 0;
+	font-size:60px;
+	font-family:'Roboto', sans-serif;
+	letter-spacing:0.10em;
+	font-weight:900;
+	font-style:normal;
+	text-align:center;
+	color:#fff;
+}
+.comment-box h3
+{
+	margin:0 0 50px 0;
+	font-family:'Roboto', sans-serif;
+	font-size:36px;
+	text-align:center;
+	color:#FFF;
+	font-weight:900;
+	line-height:1.43em;
+	letter-spacing:0.9px;
+}
+.box1
+{
+	margin:0 0 0 40px;
+	width:370px;
+	height:505px;
+	background-color:#0d2f54;
+	float:left;
+	display:none;
+}
+.box2 ,.box3 
+{
+	margin:0 40px 0 0;
+	width:370px;
+	height:505px;
+	background-color:#0d2f54;
+	float:right;
+	display:none;
+}
+.box1 img
+{
+	margin:35px 0 0 50px;
+}
+.box2 img
+{
+	margin:35px 0 0 50px;
+}
+.box3 img
+{
+	margin:35px 0 0 50px;
+}
+.box1 p
+{
+	margin:30px auto;
+	width:295px;
+	height:75px;
+	color:#3BA2BE;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	line-height:1.43em;
+	display:none;
+	
+}
+.box2 p
+{
+	margin:30px auto;
+	width:295px;
+	color:#3BA2BE;
+	font-size:15px;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	line-height:1.43em;
+	display:none;
+}
+.box3 p
+{
+	margin:30px auto;
+	width:310px;
+	color:#3BA2BE;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	line-height:1.43em;
+	display:none;
+}
+h5
+{
+	font-family:'Roboto', sans-serif;
+	color:#FFF;
+	font-size:25px;
+	font-weight:300;
+	text-align:center;
+	display:none;
+}
+
+
+
+
+
+

@@ -1,0 +1,528 @@
+﻿
+
+
+.Main-Page
+{
+	margin:0;
+	padding:10px 0 0 0;
+	width:1263px;
+	height:815px;
+}
+.Main-Page p
+{
+	margin:80px 0 0 0;
+	color:#3BA2BE;
+	font-size:36px;
+	line-height:1.78em;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+}
+.Main-Page p a
+{
+	color:#3BA2BE;
+	line-height:0.93em;
+	font-weight:900;
+	font-size:60px;
+	font-family:'Roboto', sans-serif;
+}
+.Main-Page section
+{
+	margin:55px 0 0 47px;
+	padding:0;
+	width:374px;
+	height:75px;
+	color:#C9C9C9;
+	font-size:14px;
+	line-height:1.43em;
+	font-family:'Roboto', sans-serif;
+	text-align:start;
+	float:left;
+}
+.Main-Page section:hover
+{
+	color:#03C;
+}
+.Main-Page img
+{
+	margin:70px auto;
+}
+.Main-Page #para
+{
+	margin:35px auto;
+	padding:0;
+	width:525px;
+	height:75px;
+	color:#C9C9C9;
+	font-size:14px;
+	line-height:1.43em;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	display:none;
+}
+.image {
+    margin: 50px 545px 0 0;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*     FORM ADMIN PANEL STYLE     */
+
+.Page-Area
+{
+    margin:0;
+    padding:0;
+    width:1263px;
+    height:900px;
+    background-color:brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  /*    FORM ADMIN HOME    */
+
+
+
+.home-img-btn
+{
+    margin:90px 0 0 280px;
+    width:100px;
+    height:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    /*    FORM ADMIN HOME    */
+
+
+.Packages-Page-Area
+{
+    margin:0;
+    padding:50px 0 0 0;
+    width:1263px;
+    min-height:1000px;
+    background-color:brown;
+    
+}
+.Packages-Page-Area h1
+{
+    margin:0 0 0 0;
+    font-size:60px;
+    font-family:'Roboto', sans-serif;
+    color:#03C;
+    font-weight:900;
+    font-style:italic;
+    text-align:center;
+}
+.Packages-Page-Area .Panel-Packages-1
+{
+    
+    margin:0;
+    padding:0;
+    width:1263px;
+    min-height:700px;
+    
+
+}
+.Packages-Page-Area h2
+{
+    
+    margin:40px 20px 60px 400px;
+    padding:0;
+    font-size:24px;
+    font-family:'Roboto', sans-serif;
+    color:#333;
+    font-weight:900;
+    font-style:italic;
+    float:left;
+}
+.Packages-Page-Area .txt-lmit
+{
+    
+    margin:40px 20px 60px 0;
+    padding:0;
+    width:200px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    text-align:center;
+    background-color:#C9C9C9;
+    border-radius:20px;
+    
+}
+.Packages-Page-Area .btn-srch-pkg
+{
+    
+    margin:50px 0 60px 0;
+    padding:0;
+    width:100px;
+    height:20px;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    color:#03C;
+    font-weight:900;
+    font-style:italic;
+    text-align:center;
+    background-color:#000;
+    border-radius:20px;
+    
+}
+
+.Packages-Page-Area .DropDownList-chng-pkg
+{
+    margin:40px 0 0 0;
+    width:180px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    text-align:center;
+    background-color:#C9C9C9;
+    border-radius:10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Packages-Page-Area #limit-pkg-1
+{
+    margin:50px 0 0 0;
+    font-size:35px;
+    font-family:'Roboto', sans-serif;
+    color:#333;
+    font-weight:900;
+    font-style:italic;
+    text-align:center;
+}
+
+
+.Packages-Page-Area #limit-pkg-2
+{
+    margin:50px 0 0 0;
+    font-size:35px;
+    font-family:'Roboto', sans-serif;
+    color:#333;
+    font-weight:900;
+    font-style:italic;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Packages-Page-Area #ID
+{
+    margin:50px 0 0 350px;
+    font-size:25px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    float:left;
+}
+.Packages-Page-Area #Mb
+{
+    margin:25px 0 0 350px;
+    font-size:25px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    float:left;
+}
+.Packages-Page-Area #Limit
+{
+    margin:25px 0 0 350px;
+    font-size:25px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    float:left;
+}
+.Packages-Page-Area #Price
+{
+    margin:25px 0 0 350px;
+    font-size:25px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    float:left;
+}
+.Packages-Page-Area .img-btn
+{
+    
+    margin:40px 0 0 30px;
+    width:50px;
+    height:50px;
+}
+
+.Packages-Page-Area .DropDownList
+{
+    margin:50px 0 0 100px;
+    width:100px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    background-color:#C9C9C9;
+    border-radius:10px;
+    float:left;
+    
+}
+
+
+
+
+
+
+
+
+.Packages-Page-Area .Txt-boxes
+{
+    margin:20px 600px 0 20px;
+    width:200px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    text-align:center;
+    background-color:#C9C9C9;
+    border-radius:20px;
+    float:right;
+}
+.Packages-Page-Area .btn-Add
+{
+    margin:50px 0 0 300px;
+    width:150px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    background-color:#C9C9C9;
+    border-radius:20px;
+    float:left;
+}
+
+.Packages-Page-Area .btn-Update
+{
+    margin:50px 0 0 20px;
+    width:150px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    background-color:#C9C9C9;
+    border-radius:20px;
+    float:left;
+}
+.Packages-Page-Area .btn-Delete
+{
+    margin:50px 0 0 20px;
+    width:150px;
+    height:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    background-color:#C9C9C9;
+    border-radius:20px;
+   float:left;
+}
+
+
+.Packages-Page-Area .Label1
+{
+    
+    margin:60px 0 0 400px;
+    color:red;
+    font-size:22px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-weight:600;
+    transition-duration:2s;
+    float:left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Packages-Page-Area .Panel-Packages-1
+{
+    
+    margin:0;
+    padding:0;
+    width:1263px;
+    min-height:700px;
+    position:absolute;
+}
+
+
+
+
+
+.Packages-Page-Area #ID-2
+{
+    margin:50px 0 0 350px;
+    font-size:25px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    float:left;
+}
+.Packages-Page-Area #Mb-2
+{
+    margin:25px 0 0 350px;
+    font-size:25px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    float:left;
+}
+.Packages-Page-Area #Limit-2
+{
+    margin:25px 0 0 350px;
+    font-size:25px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    float:left;
+}
+.Packages-Page-Area #Price-2
+{
+    margin:25px 0 0 350px;
+    font-size:25px;
+    font-family:'Roboto', sans-serif;
+    color:#000;
+    font-weight:900;
+    font-style:italic;
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

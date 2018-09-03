@@ -1,0 +1,200 @@
+﻿
+
+
+
+
+
+.Main-Page
+{
+	margin:0;
+	padding:10px 0 0 0;
+	width:1263px;
+	height:815px;
+}
+.Main-Page p
+{
+	margin:80px 0 0 0;
+	color:#3BA2BE;
+	font-size:36px;
+	line-height:1.78em;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+}
+.Main-Page p a
+{
+	color:#3BA2BE;
+	line-height:0.93em;
+	font-weight:900;
+	font-size:60px;
+	font-family:'Roboto', sans-serif;
+}
+.Main-Page section
+{
+	margin:55px 0 0 47px;
+	padding:0;
+	width:374px;
+	height:75px;
+	color:#C9C9C9;
+	font-size:14px;
+	line-height:1.43em;
+	font-family:'Roboto', sans-serif;
+	text-align:start;
+	float:left;
+}
+.Main-Page section:hover
+{
+	color:#03C;
+}
+.Main-Page img
+{
+	margin:70px auto;
+}
+.Main-Page #para
+{
+	margin:35px auto;
+	padding:0;
+	width:525px;
+	height:75px;
+	color:#C9C9C9;
+	font-size:14px;
+	line-height:1.43em;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	display:none;
+}
+.image {
+    margin: 50px 545px 0 0;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*     FORM ADMIN STYLE     */
+    
+
+.page-area
+{
+    margin:0;
+    padding:80px 0 0 0;
+    width:1263px;
+    min-height:600px;
+    background-color:#006;   
+}
+.Login-box 
+{
+    margin:0 auto;
+    padding:0;
+    width:400px;
+    min-height:350px;
+    border-radius:40px;
+    background-color:transparent;
+   
+}
+.Login-box .label-style 
+{
+    margin:10px 0 0 40px;
+    color:white;
+    font-size:14px;
+    font-family:'Roboto', sans-serif;
+    font-weight:400;
+    font-style:italic;
+    transition-duration:2s;
+
+}
+.Login-box .textbox-style 
+{
+    margin:10px 0 0 10px;
+    padding:0 10px 0 10px;
+    width:180px;
+    height:25px;
+    color:black;
+    background-color:#C9C9C9;
+    font-size:14px;
+    font-family:'Roboto', sans-serif;
+    font-weight:900;
+    font-style:italic;
+    border:1px solid #C9C9C9;
+    border-radius:20px;
+    transition-duration:2s;
+
+}
+.Login-box .title-style 
+{
+    margin:20px auto;
+    color:white;
+    font-size:24px;
+    font-family:'Roboto', sans-serif;
+    font-weight:900;
+    font-style:italic;
+    transition-duration:2s;
+
+}
+.Login-box .btn-login-style 
+{
+
+    width:80px;
+    height:30px;
+    color:#fff;
+    font-size:14px;
+    font-family:'Roboto', sans-serif;
+    font-weight:400;
+    font-style:italic;
+    background-color:#000;
+    border:2px solid #333;
+    border-radius:10px;
+    transition-duration:1s;
+
+}
+.Login-box .btn-login-style:hover
+{
+    color:#03C;
+    background-color:#808080;
+    border-radius:20px;
+    transition-duration:1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

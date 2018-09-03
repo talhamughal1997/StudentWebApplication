@@ -1,0 +1,1018 @@
+﻿
+
+
+
+
+
+
+
+.Page-Area
+{
+	margin:0;
+	padding:0;
+	width:1263px;
+	height:1100px;
+	
+}
+.Page-Area h1
+{
+	margin:100px 0 80px 0;
+	font-family:'Roboto', sans-serif;
+	font-size:36px;
+	line-height:1.43em;
+	letter-spacing:0.30px;
+	font-weight:900;
+	text-align:center;
+	color:#008AC6;
+}
+
+
+
+
+.address-box
+{
+	margin:0;
+	padding:0;
+	width:443px;
+	min-height:460px;
+	float:left;
+	
+}
+.address-box h2
+{
+	margin:70px 0 0 50px;
+	color:#3BA2BE;
+	font-size:24px;
+	font-family:'Roboto', sans-serif;
+	font-weight:normal;
+	letter-spacing:0.30px;	
+	display:none;
+}
+
+
+
+.address-box img
+{
+	margin:20px 10px 0 30px;
+	width:15px;
+	height:17px;
+	float:left;
+	display:none;
+}
+.address-box img:hover
+
+{
+	opacity:0.50;
+}
+
+
+
+
+.address-box #adres-para-1
+{
+	margin:20px 0 0 0;
+	color:#C9C9C9;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	font-weight:normal;
+	letter-spacing:0.30px;
+	line-height:1.43em;
+	display:none;
+}
+.address-box h3
+{
+	margin:30px 0 0 50px;
+	color:#3BA2BE;
+	font-size:24px;
+	font-family:'Roboto', sans-serif;
+	font-weight:normal;
+	letter-spacing:0.30px;
+	display:none;
+}
+.address-box #adres-para-2
+{
+	margin:20px 0 0 50px;
+	color:#C9C9C9;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	font-weight:normal;
+	letter-spacing:0.30px;
+	line-height:1.43em;
+	display:none;
+}
+.address-box #adres-para-2
+{
+	margin:20px 0 0 50px;
+	color:#C9C9C9;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	font-weight:normal;
+	letter-spacing:0.30px;
+	line-height:1.43em;
+	display:none;
+}
+.address-box #adres-para-3
+{
+	margin:20px 0 0 50px;
+	color:#C9C9C9;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	font-weight:normal;
+	letter-spacing:0.30px;
+	line-height:1.43em;
+	display:none;
+}
+.address-box h4
+{
+	margin:30px 0 0 50px;
+	color:#3BA2BE;
+	font-size:24px;
+	font-family:'Roboto', sans-serif;
+	font-weight:normal;
+	letter-spacing:0.30px;
+	display:none;
+}
+.address-box #adres-para-4
+{
+	margin:20px 0 0 50px;
+	color:#06C;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	letter-spacing:0.30px;
+	line-height:1.43em;
+	transition-duration:1s;
+	display:none;
+}
+
+.address-box #adres-para-4:hover
+{
+	color:#000;
+	transition-duration:1s;
+}
+
+
+
+
+
+
+.message-box
+{
+	margin:0;
+	padding:0;
+	width:820px;
+	min-height:460px;
+	float:right;
+}
+.message-box h2
+{
+	margin:70px 0 0 0;
+	color:#3BA2BE;
+	font-size:24px;
+	font-family:'Roboto', sans-serif;
+	font-weight:normal;
+	letter-spacing:0.30px;	
+	text-align:start;
+	display:none;
+}
+.message-box #message-para
+{
+	margin:20px 0 0 0px;
+	color:#C9C9C9;
+	font-size:14px;
+	font-family:'Roboto', sans-serif;
+	font-weight:normal;
+	letter-spacing:0.30px;
+	line-height:1.43em;
+	text-align:start;
+	display:none;
+}
+.message-box .txt_name
+{
+	margin:40px 0 0 0;
+	padding:0 0 0 10px;
+	width:220px;
+	height:40px;
+	border:1px solid #CCC;
+	border-radius:10px;
+	background-color:#fff;
+	text-align:start;
+	font-size:18px;
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	color:#999;
+	float:left;
+	display:none;
+}
+.message-box .txt_email
+{
+	margin:40px 20px 0 20px;
+	padding:0 0 0 10px;
+	width:220px;
+	height:40px;
+	border:1px solid #CCC;
+	border-radius:10px;
+	background-color:#fff;
+	text-align:start;
+	font-size:18px;
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	color:#999;
+	float:left;
+	display:none;
+}
+.message-box .txt_phone
+{
+	margin:40px 0 0 0;
+	padding:0 0 0 10px;
+	width:220px;
+	height:40px;
+	border:1px solid #CCC;
+	border-radius:10px;
+	background-color:#fff;
+	text-align:start;
+	font-size:18px;
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	color:#999;
+	float:left;
+	display:none;
+}
+
+.message-box .txt_message
+{
+	margin:40px 0 0 0;
+	padding:0 0 0 10px;
+	width:760px;
+	height:120px;
+	border:1px solid #CCC;
+	border-radius:10px;
+	background-color:#fff;
+	font-size:18px;
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	color:#999;
+	float:left;
+	display:none;
+}
+
+
+
+.message-box .button
+{
+	margin:40px 0 0 40px;
+	padding:0 0 0 10px;
+	width:160px;
+	height:30px;
+	border:1px solid #CCC;
+	border-radius:10px;
+	background-color:#0C0;
+	font-size:18px;
+	font-family:'Roboto', sans-serif;
+	font-weight:600;
+	color:#000;
+	float:left;
+	transition-duration:1s;
+	
+}
+.message-box .button:hover
+{
+	color:#F00;
+	background-color:#000;
+	transition-duration:1s;
+}
+.message-box .lbl_Message
+{
+	color:#F00;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         COMMENTS STYLE        */
+
+
+.Comment-box 
+{
+    width:1263px;
+    min-height:300px;
+}
+.Comment-box .SignIN-Panel 
+{
+    margin:0;
+    padding:50px 0 0 0;
+    width:1263px;
+    min-height:300px;
+    background:linear-gradient(#a79c9c,grey);
+}
+.Comment-box h1
+{    
+    margin:0 0 0 550px;
+    color:#000;
+    font-weight:600;
+    font-size:34px;
+    font-style:normal;
+}
+.Comment-box h2 
+{
+    margin:20px 0 0 450px;
+    color:#03C;
+    font-weight:600;
+    font-size:24px;
+    font-style:normal;
+    float:left;
+}
+.Comment-box .logIn-txt 
+{
+    margin:20px 470px 0 0px;
+    padding:0 0 0 10px;
+    width:200px;
+    height:30px;
+    color:#b6b2b2;
+    font-weight:600;
+    font-size:14px;
+    font-style:italic;
+    border-radius:20px;
+    border:2px solid #999;
+    float:right;
+}
+
+
+.Comment-box h3 
+{
+    margin:20px 0 0 450px;
+    color:#03C;
+    font-weight:600;
+    font-size:24px;
+    font-style:normal;
+    float:left;
+}
+.Comment-box .Password-txt 
+{
+    margin:20px 470px 0 0px;
+    padding:0 0 0 10px;
+    width:200px;
+    height:30px;
+    color:#b6b2b2;
+    font-weight:600;
+    font-size:14px;
+    font-style:italic;
+    border-radius:20px;
+    border:2px solid #999;
+    float:right;
+}
+
+.Comment-box .btn-SignIn
+{    
+    margin:50px 0 0 550px;
+    color:#000;
+    font-weight:600;
+    font-size:18px;
+    font-style:normal;
+    border:0;
+    border-radius:10px;
+    float:left;
+}
+.Comment-box .btn-SignIn:hover 
+{
+    color:#03C;
+    background-color:#999;
+}
+.Comment-box .sign-up
+{    
+    margin:50px 0 0 50px;
+    color:#000;
+    font-weight:600;
+    font-size:18px;
+    font-style:normal;
+    border:0;
+    border-radius:10px;
+    float:left;
+    
+}
+.Comment-box .sign-up:hover 
+{
+    color:#03C;
+    background-color:#999;
+}
+.Comment-box .lbl-message
+{
+    margin:20px 0 0 500px;
+    width:900px;
+    color:red;
+    font-weight:600;
+    font-size:22px;
+    font-style:italic;
+    float:left;
+}
+.Comment-box .lnk-btn
+{
+    margin:20px 300px 0 0;
+    color:#03C;
+    font-weight:600;
+    font-size:20px;
+    font-style:italic;
+    text-transform:capitalize;
+    text-decoration:none;
+    float:right;
+    transition-duration:1s;
+}
+.Comment-box .lnk-btn:hover
+{
+    color:#FFF;
+    font-weight:900;
+    transition-duration:1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Comment-box .SignUP-Panel 
+{
+    margin:0;
+    padding:50px 100px 0 100px;
+    width:1063px;
+    min-height:100px;
+    background:repeating-radial-gradient(black,gray);
+}
+.SignUP-Panel section
+{
+    margin:0;
+    color:aqua;
+    font-family:'Roboto', sans-serif;
+    font-size:36px;
+    font-weight:900;
+    text-align:center;
+}
+
+
+
+
+
+
+
+.SignUP-Panel h1
+{
+    margin:80px 0 0 50px;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:28px;
+    font-weight:900;
+    float:left;
+}
+.SignUP-Panel .txt-fname 
+{   
+    margin:80px 0 0 20px;
+    padding:0 0 0 10px;
+    width:200px;
+    height:30px;
+    color:white;
+    font-weight:600;
+    font-size:14px;
+    font-style:italic;
+    border-radius:20px;
+    border:2px solid white;
+    float:left;
+    background-color:transparent;
+}
+.SignUP-Panel h2
+{
+    margin:80px 0 0 150px;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:28px;
+    font-weight:900;
+    float:left
+}
+.SignUP-Panel .txt-lname 
+{   
+    margin:80px 0 0 20px;
+    padding:0 0 0 10px;
+    width:200px;
+    height:30px;
+    color:white;
+    font-weight:600;
+    font-size:14px;
+    font-style:italic;
+    border-radius:20px;
+    border:2px solid white;
+    background-color:transparent;
+    
+}
+.SignUP-Panel .rq-field-validator-1
+{   
+    margin:0 0 100px 250px;
+    color:red;
+    font-weight:300;
+    font-size:22px;
+    font-style:italic;
+    float:left;
+    
+}
+.SignUP-Panel .rq-field-validator-2
+{   
+    margin:0 0 100px 370px;
+    color:red;
+    font-weight:300;
+    font-size:22px;
+    font-style:italic;
+    float:left;
+}
+
+
+
+.SignUP-Panel h3
+{
+    margin:0 0 0 50px;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:28px;
+    font-weight:900;
+    float:left;
+}
+
+.SignUP-Panel .txt-email 
+{   
+    margin:0 0 0 20px;
+    padding:0 0 0 10px;
+    width:200px;
+    height:30px;
+    color:white;
+    font-weight:600;
+    font-size:14px;
+    font-style:italic;
+    border-radius:20px;
+    border:2px solid white;
+    float:left;
+    background-color:transparent;
+}
+.SignUP-Panel h4
+{
+    margin:0 0 0 250px;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:28px;
+    font-weight:900;
+    float:left
+}
+.SignUP-Panel .txt-country 
+{   
+    margin:0 0 0 20px;
+    padding:0 0 0 10px;
+    width:200px;
+    height:30px;
+    color:white;
+    font-weight:600;
+    font-size:14px;
+    font-style:italic;
+    border-radius:20px;
+    border:2px solid white;
+    background-color:transparent;
+}
+
+
+
+
+.SignUP-Panel .rq-field-validator-3
+{   
+     margin:0 0 0 200px;
+    color:red;
+    font-weight:300;
+    font-size:22px;
+    font-style:italic;
+    float:left;
+}
+.SignUP-Panel .rq-field-validator-4
+{   
+    margin:0 0 0 480px;
+    color:red;
+    font-weight:300;
+    font-size:22px;
+    font-style:italic;
+    float:left;
+
+}
+.SignUP-Panel .rg-exp-validator
+{   
+    margin:0 0 0 160px;
+    color:red;
+    font-weight:300;
+    font-size:22px;
+    font-style:italic;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.SignUP-Panel h5
+{
+    margin:180px 0 0 350px;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:28px;
+    font-weight:900;
+    float:left;
+}
+
+.SignUP-Panel .txt-logIn 
+{   
+    margin:180px 0 0 20px;
+    padding:0 0 0 10px;
+    width:200px;
+    height:30px;
+    color:white;
+    font-weight:600;
+    font-size:14px;
+    font-style:italic;
+    border-radius:20px;
+    border:2px solid white;
+    background-color:transparent;
+}
+.SignUP-Panel h6
+{
+    margin:50px 0 0 300px;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:28px;
+    font-weight:900;
+    float:left;
+}
+.SignUP-Panel .txt-password 
+{   
+    margin:50px 0 0 20px;
+    padding:0 0 0 10px;
+    width:200px;
+    height:30px;
+    color:white;
+    font-weight:600;
+    font-size:14px;
+    font-style:italic;
+    border-radius:20px;
+    border:2px solid white;
+    background-color:transparent;
+    
+}
+.SignUP-Panel .rq-field-validator-5
+{   
+    margin:10px 0 0 50px;
+    color:red;
+    font-weight:300;
+    font-size:22px;
+    font-style:italic;
+   
+}
+.SignUP-Panel .rq-field-validator-6
+{   
+    margin:10px 0 0 50px;
+    color:red;
+    font-weight:300;
+    font-size:22px;
+    font-style:italic;
+   
+
+}
+.SignUP-Panel p
+{
+    margin:0 0 0 230px;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    font-size:24px;
+    font-weight:900;
+    float:left;
+}
+.SignUP-Panel .txt-cpassword 
+{   
+    margin:0 0 0 20px;
+    padding:0 0 0 10px;
+    width:200px;
+    height:30px;
+    color:white;
+    font-weight:600;
+    font-size:14px;
+    font-style:italic;
+    border-radius:20px;
+    border:2px solid white;
+    background-color:transparent;
+    
+}
+
+.SignUP-Panel .rq-field-validator-7
+{   
+    margin:10px 0 0 510px;
+    color:red;
+    font-weight:300;
+    font-size:22px;
+    font-style:italic;
+   
+
+}
+.SignUP-Panel .compare-validator
+{   
+    margin:30px 0 0 520px;
+    color:red;
+    font-weight:300;
+    font-size:22px;
+    font-style:italic;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.SignUP-Panel .btn-SignUP
+{
+    margin:50px 0 60px 430px;
+    background-color:gray;
+    width:150px;
+    height:50px;
+    color:black;
+    font-family:'Roboto', sans-serif;
+    font-size:20px;
+    font-weight:900;
+    border-radius:20px;
+    transition-duration:1s;
+}
+.SignUP-Panel .btn-SignUP:hover
+{
+    background-color:#69280c;
+    color:#fff;
+    transition-duration:1s;
+}
+
+.Comment-box .lbl-message2
+{
+    margin:70px 0 0 450px;
+    padding:0;
+    width:900px;
+    color:red;
+    font-weight:bolder;
+    font-size:22px;
+    font-style:italic;
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+/*      GIVE COMMENTS STYLE        */
+
+
+
+.gv-comment-panel
+{
+    margin:0;
+    padding:50px 0 0 290px;
+    width:973px;
+    min-height:800px;
+    background-color:#b6b2b2;
+}
+.Label1
+{
+    margin:0 0 0 0;
+    color:black;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+ 
+}
+.Label1:hover
+{
+    color:red;
+     
+}
+.gv-comment-panel h6
+{
+    margin:15px 10px 5px 0;
+    padding:0;
+    color:black;
+    font-size:22px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+  
+}
+.gv-comment-panel .txt-box
+{
+    margin:10px 0 0 0;
+    padding:10px 10px 10px 10px;
+    width:300px;
+    height:150px;
+    font-size:14px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    font-weight:600;
+    color:#000;
+    text-transform:capitalize;
+    border-radius:5px;
+    border:5px solid #999;
+    transition-duration:1s;
+}
+.gv-comment-panel .txt-box:focus
+{
+    
+    transition-duration:1s;
+    border-radius:15px;
+    border-bottom:10px solid #000;
+}
+.gv-comment-panel .btn-submit
+{
+    margin:0 0 40px 70px;
+    width:80px;
+    height:40px;
+    font-size:16px;
+    font-style:italic;
+    font-weight:900;
+    background-color:#000;
+    color:#06C;
+    border-radius:5px;
+    border-bottom:5px solid #000;
+    transition-duration:1s;
+    float:left;
+}
+.gv-comment-panel .btn-submit:hover
+{
+    transition-duration:1s;
+    background-color:#999;
+    color:#000;
+    border-radius:10px;
+    border-bottom:10px solid #999;
+}
+.gv-comment-panel .lnk-view-comments
+{
+    margin:10px 0 0 20px;
+    color:#03C;
+    font-weight:600;
+    font-size:20px;
+    font-style:italic;
+    text-transform:capitalize;
+    text-decoration:none;
+    transition-duration:1s;
+}
+.gv-comment-panel .lnk-view-comments:hover 
+{
+    color: #FFF;
+    font-weight: 900;
+    transition-duration: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*          FORM SHOW COMMENTS     */
+
+
+
+
+
+.gv-comments-dlst 
+{
+    margin:0;
+    padding:30px 0 0 160px;
+    width:1103px;
+    height:850px;
+    background:linear-gradient(#b6b2b2,#999,#C9C9C9);
+    
+}
+.gv-comments-dlst h4
+{
+    margin:5px 20px 0 0;
+    color:#000;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    text-transform:capitalize;
+    float:left;
+}
+.gv-comments-dlst h5
+{
+    margin:5px 0 0 0;
+    color:#000;
+    font-size:14px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    text-transform:capitalize;
+    transition-duration:1s;
+}  
+.gv-comments-dlst h5:hover
+{
+   
+    color:maroon;
+    font-size:15px;
+    font-weight:900;
+    transition-duration:1s;
+}   
+.gv-comments-dlst h6
+{
+    margin:10px 0 0 0;
+    color:#000;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    text-transform:capitalize;
+}  
+.gv-comments-dlst section
+{
+    margin:10px 0 0 50px;
+    color:#000;
+    font-size:14px;
+    font-family:'Roboto', sans-serif;
+    font-style:italic;
+    text-transform:capitalize;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

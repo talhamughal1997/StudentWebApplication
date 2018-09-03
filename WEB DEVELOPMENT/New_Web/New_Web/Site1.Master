@@ -1,0 +1,282 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="New_Web.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <title>MY_WEBSITE</title>
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+
+
+
+
+
+<!-- Google Font  "Roboto" -->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+
+
+<script src="/JQuery/JQ.js"></script>   <!-- Attach jQuery -->
+    <link href="CSS/Master_Page.css" rel="stylesheet" />
+
+<script>
+
+    $(document).ready(function () {
+        Slider();
+        ParaSlider();
+
+
+
+
+
+
+        $("nav li").hover(function () {
+
+            $("ul", this).slideDown(100);
+
+        },
+
+            function () {
+
+                $("ul", this).slideUp(100);
+
+            });
+
+
+
+
+    });
+
+
+
+    function Slider() {
+
+        $("#im-1").animate({ opacity: '1' }, 6000, function () {
+            $("#im-1").animate({ opacity: '.2' }, 3000, function () {
+                $("#im-2").animate({ opacity: '1' }, 6000, function () {
+                    $("#im-2").animate({ opacity: '.2' }, 3000, function () {
+                        $("#im-3").animate({ opacity: '1' }, 6000, function () {
+                            $("#im-3").animate({ opacity: '.2' }, 3000, function () {
+                                $("#im-4").animate({ opacity: '1' }, 6000, function () {
+                                    $("#im-4").animate({ opacity: '0' }, 3000, Slider)
+
+
+
+                                });
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    }
+
+
+
+
+
+    function ParaSlider() {
+
+        $("#main-para-1").slideDown(3000, function () {
+            $("#main-para-1").animate({ fontSize: '75px' }, 3000, function () {
+                $("#main-para-1").fadeOut(3000, function () {
+                    $("#main-para-2").fadeIn(3000, function () {
+                        $("#main-para-2").animate({ fontSize: '24px' }, 3000, function () {
+                            $("#main-para-2").slideUp(3000, function () {
+                                $("#main-para-1,#main-para-2").animate({ fontSize: '56px' }, 1, ParaSlider);
+                            });
+                        });
+                    });
+                });
+            });
+        });
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    $(document).scroll(function () {
+
+
+
+        $("footer").fadeIn(3000);
+        $(".icon,#adres").slideDown(4000);
+        $("footer h4").slideDown(4000);
+
+
+
+
+
+    });
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        
+
+
+
+
+        <!-- OPEN BODY  -->
+
+		<div class="Main-Wrapper">	<!-- Open Main Wrapper -->
+        
+     	
+     	
+         	 
+        
+        
+       	<div class="Top-Area">	<!-- Open Top Area -->
+        
+        	<img id="im-1" src="/IMAGES/Home_Images/business-1.jpg" />
+            <img id="im-2" src="/IMAGES/Home_Images/business-2.jpg" />
+            <img id="im-3" src="/IMAGES/Home_Images/business-3.png" />
+            <img id="im-4" src="/IMAGES/Home_Images/business-4.jpg" />
+            
+            
+            
+          <nav>			<!-- Open Navigation  -->
+            <ul>
+            	<li><a href="/default.aspx">HOME</a></li>
+                <li><a href="/ABOUT.aspx">ABOUT US</a></li>
+                <li><a href="/GALLERY.aspx">GALLERY</a></li>
+                <li><a href="/frmAdmin.aspx">ADMIN</a></li> 
+                <li><a href="/PACKAGES.aspx">PACKAGES</a></li> 
+                <li><a href="#">CONTACT</a>
+                
+                <ul>
+                <li><a href="/Register.aspx">REGISTER</a></li>
+                <li><a href="/Comments.aspx">COMMENT</a></li>
+                <li><a href="/CONTACT.aspx">CONTACT</a></li>
+                
+                </ul> 
+                </li>               
+                
+                </ul>
+
+              
+            
+            
+            	</nav>		<!-- Close Navigation  -->
+              
+            
+            
+            <p id="main-para-1">
+            		
+            		WELCOME TO		<br />
+                    	OUR WEBSITE
+                    
+            		</p>
+           
+           
+           
+            <p id="main-para-2">
+            		
+            		QUALITY		<br />
+                    	COMMUNICATION
+                    
+            		</p>
+           
+           
+           
+           
+           
+            
+            
+            
+            
+        
+        	</div>	<!-- Close Top Area -->
+            
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+
+
+
+
+
+
+
+
+             <footer>   <!-- Open Footer  -->
+        
+        <h4>Facebook </h4>
+         	   
+        
+        <h6>Twitter: </h6>
+        
+        <h2>(800) 123 1234</h2>
+        	
+            <img src="/IMAGES/Home_Images/facebook.png" />
+            <img src="/IMAGES/Home_Images/twitter.png" />
+            
+     	  <p id="adres">
+          USA – Chicago, 901 East E Street, <br />
+		  Wilmington, CA 90744  <br />
+		  e-mail: <a href="#"> mail@demolink.org</a>
+  				</p>
+                
+                
+                
+        <div class="icon">
+        <img src="/IMAGES/Home_Images/f.png" />
+        <img src="/IMAGES/Home_Images/t.png" />
+        <img src="/IMAGES/Home_Images/g.png" />
+        <img src="/IMAGES/Home_Images/in.png" />
+        </div>
+        
+        
+        <section id="footer-sec">
+        			Quality Communications  <br />  2016 | Privacy Policy
+        		</section>
+        
+        
+        
+        </footer>  <!-- Close Footer  -->
+        
+		</div>	<!-- Close Main Wrapper -->
+
+
+
+
+
+
+
+
+    
+    </form>
+</body>
+</html>

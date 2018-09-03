@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BC500A0-50CE-4F4E-8761-BAACCC25C11A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>New_Web</RootNamespace>
+    <AssemblyName>New_Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ABOUT.aspx" />
+    <Content Include="Admin_Registered.aspx" />
+    <Content Include="App_Data\New_Web.mdf" />
+    <Content Include="App_Data\New_Web_log.ldf">
+      <DependentUpon>New_Web.mdf</DependentUpon>
+    </Content>
+    <Content Include="COMMENTS.aspx" />
+    <Content Include="CONTACT.aspx" />
+    <Content Include="CSS\Master_Page.css" />
+    <Content Include="CSS\Style_About.css" />
+    <Content Include="CSS\Style_Admin.css" />
+    <Content Include="CSS\Style_Admin_pages.css" />
+    <Content Include="CSS\Style_Contact.css" />
+    <Content Include="CSS\Style_Gallery.css" />
+    <Content Include="CSS\Style_Index.css" />
+    <Content Include="CSS\Style_Packages.css" />
+    <Content Include="CSS\Style_Register.css" />
+    <Content Include="default.aspx" />
+    <Content Include="FrmAdmin.aspx" />
+    <Content Include="FrmGiveComments.aspx" />
+    <Content Include="FrmShowComments.aspx" />
+    <Content Include="GALLERY.aspx" />
+    <Content Include="IMAGES\AboutUs_Images\price-img-1.png" />
+    <Content Include="IMAGES\AboutUs_Images\profile-img-1.png" />
+    <Content Include="IMAGES\AboutUs_Images\profile-img-2.png" />
+    <Content Include="IMAGES\AboutUs_Images\profile-img-3.png" />
+    <Content Include="IMAGES\AboutUs_Images\team-1.png" />
+    <Content Include="IMAGES\AboutUs_Images\team-2.png" />
+    <Content Include="IMAGES\AboutUs_Images\team-3.png" />
+    <Content Include="IMAGES\AboutUs_Images\team-4.png" />
+    <Content Include="IMAGES\AboutUs_Images\world-1.jpg" />
+    <Content Include="IMAGES\AboutUs_Images\world-2.jpg" />
+    <Content Include="IMAGES\Admin_Images\HP.png" />
+    <Content Include="IMAGES\Admin_Images\magnifying-glass-145942_960_720.png" />
+    <Content Include="IMAGES\Admin_Images\new-package-magic-300x228.jpg" />
+    <Content Include="IMAGES\Admin_Images\search-images-18.jpg" />
+    <Content Include="IMAGES\Contact_Images\address-icon.png" />
+    <Content Include="IMAGES\Contact_Images\email-icon.png" />
+    <Content Include="IMAGES\Contact_Images\fax-icon.png" />
+    <Content Include="IMAGES\Contact_Images\phone-icon.png" />
+    <Content Include="IMAGES\Gallery_Images\galery-1.png" />
+    <Content Include="IMAGES\Gallery_Images\galery-2.png" />
+    <Content Include="IMAGES\Gallery_Images\galery-3.png" />
+    <Content Include="IMAGES\Gallery_Images\galery-4.png" />
+    <Content Include="IMAGES\Gallery_Images\galery-5.png" />
+    <Content Include="IMAGES\Gallery_Images\galery-6.png" />
+    <Content Include="IMAGES\Gallery_Images\galery-7.png" />
+    <Content Include="IMAGES\Gallery_Images\i-icon.png" />
+    <Content Include="IMAGES\Gallery_Images\plus-icon.png" />
+    <Content Include="IMAGES\Home_Images\business-1.jpg" />
+    <Content Include="IMAGES\Home_Images\business-1.png" />
+    <Content Include="IMAGES\Home_Images\business-2.jpg" />
+    <Content Include="IMAGES\Home_Images\business-3.png" />
+    <Content Include="IMAGES\Home_Images\business-4.jpg" />
+    <Content Include="IMAGES\Home_Images\comment-img-1.jpg" />
+    <Content Include="IMAGES\Home_Images\comment-img-1.png" />
+    <Content Include="IMAGES\Home_Images\comment-img-2.jpg" />
+    <Content Include="IMAGES\Home_Images\comment-img-2.png" />
+    <Content Include="IMAGES\Home_Images\comment-img-3.jpg" />
+    <Content Include="IMAGES\Home_Images\comment-img-3.png" />
+    <Content Include="IMAGES\Home_Images\f.png" />
+    <Content Include="IMAGES\Home_Images\facebook.png" />
+    <Content Include="IMAGES\Home_Images\g.png" />
+    <Content Include="IMAGES\Home_Images\in.png" />
+    <Content Include="IMAGES\Home_Images\projects-img-1.png" />
+    <Content Include="IMAGES\Home_Images\projects-img-2.png" />
+    <Content Include="IMAGES\Home_Images\projects-img-3.png" />
+    <Content Include="IMAGES\Home_Images\projects-img-4.png" />
+    <Content Include="IMAGES\Home_Images\read-more-1.jpg" />
+    <Content Include="IMAGES\Home_Images\read-more-1.png" />
+    <Content Include="IMAGES\Home_Images\read-more-2.jpg" />
+    <Content Include="IMAGES\Home_Images\row.png" />
+    <Content Include="IMAGES\Home_Images\t.png" />
+    <Content Include="IMAGES\Home_Images\twitter.png" />
+    <Content Include="IMAGES\Home_Images\world-1.jpg" />
+    <Content Include="IMAGES\Home_Images\world-2.jpg" />
+    <Content Include="IMAGES\Home_Images\world-3.jpg" />
+    <Content Include="JQuery\JQ.js" />
+    <Content Include="PACKAGES.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Secure\FrmAdminHome.aspx" />
+    <Content Include="Secure\FrmAdminPackages.aspx" />
+    <Content Include="Secure\FrmAdminPanel.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABOUT.aspx.cs">
+      <DependentUpon>ABOUT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABOUT.aspx.designer.cs">
+      <DependentUpon>ABOUT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Registered.aspx.cs">
+      <DependentUpon>Admin_Registered.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Registered.aspx.designer.cs">
+      <DependentUpon>Admin_Registered.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClsDataBase.cs" />
+    <Compile Include="COMMENTS.aspx.cs">
+      <DependentUpon>COMMENTS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="COMMENTS.aspx.designer.cs">
+      <DependentUpon>COMMENTS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CONTACT.aspx.cs">
+      <DependentUpon>CONTACT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTACT.aspx.designer.cs">
+      <DependentUpon>CONTACT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmin.aspx.cs">
+      <DependentUpon>FrmAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmAdmin.aspx.designer.cs">
+      <DependentUpon>FrmAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGiveComments.aspx.cs">
+      <DependentUpon>FrmGiveComments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmGiveComments.aspx.designer.cs">
+      <DependentUpon>FrmGiveComments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowComments.aspx.cs">
+      <DependentUpon>FrmShowComments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmShowComments.aspx.designer.cs">
+      <DependentUpon>FrmShowComments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GALLERY.aspx.cs">
+      <DependentUpon>GALLERY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GALLERY.aspx.designer.cs">
+      <DependentUpon>GALLERY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PACKAGES.aspx.cs">
+      <DependentUpon>PACKAGES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PACKAGES.aspx.designer.cs">
+      <DependentUpon>PACKAGES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure\FrmAdminHome.aspx.cs">
+      <DependentUpon>FrmAdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\FrmAdminHome.aspx.designer.cs">
+      <DependentUpon>FrmAdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure\FrmAdminPackages.aspx.cs">
+      <DependentUpon>FrmAdminPackages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\FrmAdminPackages.aspx.designer.cs">
+      <DependentUpon>FrmAdminPackages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure\FrmAdminPanel.aspx.cs">
+      <DependentUpon>FrmAdminPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\FrmAdminPanel.aspx.designer.cs">
+      <DependentUpon>FrmAdminPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+    <Content Include="Secure\Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1360</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1332/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
